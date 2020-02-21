@@ -12,7 +12,7 @@ NewPing sonar_1(TRIGGER_PIN_1, ECHO_PIN_1, MAX_DISTANCE); //Sonar is define by N
 unsigned int jarak;
 
 void setup(){
-  Serial.begin(9600); //Program begins after 9600ms?
+  Serial.begin(9600); //Program begins after 9600Baud
   servoku.attach(3); //Servo is on pin 3
 }
 
